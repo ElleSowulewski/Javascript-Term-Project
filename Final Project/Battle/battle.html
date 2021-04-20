@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <!--The page that plays the battle game-->
+		<meta charset=utf-8>
+		<title>Battle Game</title>
+        <link href="CSS/battle.css" rel="stylesheet">
+        <!--For Font Awesome House-->
+        <script src="https://kit.fontawesome.com/f9f570fc67.js" crossorigin="anonymous"></script>
+        <script src="JS/battle.js"></script>
+    </head>   
+    </head>   
+    <body onload="setUp()">
+        <main>
+            <!--Header-->
+            <h1><a href="../main_page.html"><i class="fas fa-home"></i></a></h1>
+            <!--Game-->
+            <section>
+                <!--Dice images and buttons-->
+                <div id="dieContainer" style="height: 100px;">
+                    <div id="dice1">
+                        <img id = "die1" src="Media/die-1.png">
+                        <br>
+                        <button onclick="setDie1()" id="rollButton1">Roll</button>
+                    </div>
+                    <div id="dice2">
+                        <img id = "die2" src="Media/die-1.png">
+                        <br>
+                        <button onclick="setDie2()" id="rollButton2">Roll</button>
+                    </div>
+                    <button onclick="reset()" id="again">Again!</button>
+                </div>
+                <!--Battle images and life text-->
+                <div id="battle">
+                    <img id="battles" src="Media/battle-1.png">
+                </div>
+                <div>
+                    <p id="player" style="float: left;">Your Lives: </p>
+                    <p id="comp" style="padding-top:16px;">Enemy Lives: </p>
+                </div>
+                <div>
+                    <p id="playerLives" style="float: left;"></p>
+                    <p id="compLives" style="padding-top:16px;"></p>
+                </div>
+            </section>  
+        </main>
+        <footer>
+            <!--Name, mailto link, and readme file-->
+            <p>&copy; 2021 Sowulewski, Elizabeth</p>
+            <p><a href="mailto:sowulee@mail.nmc.edu">Contact</a></p>
+            <p><a href="readme.txt">readme</a></p>
+        </footer>
+    </body>
+</html>

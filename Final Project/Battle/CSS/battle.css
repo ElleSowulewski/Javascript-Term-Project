@@ -1,0 +1,67 @@
+/* CSS for battle page */
+html{
+    background-color: rgb(179, 205, 255);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+h1{
+    text-align: center;
+    background-color: rgb(233, 241, 255);
+    border-radius: 10px;
+    padding: 1px;
+    margin: 0;
+}
+section{
+    margin-left: 24.6%;
+}
+/* Styling for images and buttons */
+#dice1{
+    float: left;
+}
+#dice1, #dice2{
+    padding: 25px;
+}
+button{
+    font-size: larger;
+}
+#rollButton1{
+    margin-left: 42%;
+}
+#rollButton2{
+    margin-left: 13%;
+}
+#again{
+    margin-left: 30%;
+}
+#battle{
+    margin-top: 20em;
+    margin-left: 5%;
+}
+/* Styling for lives text */
+#player{
+    margin-left: 8%;
+    font-size: large;
+    font-weight: bold;
+}
+#playerLives{
+    margin-left: -5%;
+}
+#comp{
+    margin-left: 52%;
+    font-size: large;
+    font-weight: bold;
+}
+#compLives{
+    margin-left: 57.5%;
+}
+footer{
+    background: cornflowerblue;
+    padding: 3px;
+    margin-right: 87%;
+    font-size: smaller;
+    margin-top: 5%;
+    border-radius: 10px;
+}
+/* Styles Font Awesome House */
+i{
+    font-size: xx-large;
+}

@@ -1,0 +1,83 @@
+/* CSS used for main_page.html and puzzle_selection.html */
+html{
+    background-color: rgb(96, 176, 244);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+body{
+    background-image: url(../Media/bg.png);
+    background-repeat: repeat;
+    margin: 0;
+    margin-top: 1%;
+}
+h1{
+    text-align: center;
+    background-color: rgb(215, 229, 255);
+    padding: 1px;
+    margin: 0;
+}
+article{
+    background-color: rgb(179, 205, 255);
+    padding: 5%;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 2%;
+    text-align: center;
+    border-radius: 20px;
+}
+/* Sets the arrow style for the summary/details sections */
+summary::marker {   
+    display: none;
+  }
+  summary:after {
+    content: "⮞";
+    color: black;
+    float: left;
+    font-weight: bold;
+    margin: -5px 10px 5px 0;
+    padding-right: 8px;
+    text-align: center;
+    width: 20px;
+  }
+  details[open] summary:after {
+    color: black;
+    content: "⮟";
+  }
+section{
+    text-align: left;
+    background-color: rgb(215, 229, 255);
+    margin: 1%;
+    padding: 35px;
+    border-radius: 10px;
+}
+summary{
+    font-size: x-large;
+}
+footer{
+    background: cornflowerblue;
+    padding: 3px;
+    margin-right: 87%;
+    font-size: smaller;
+    margin-top: 7%;
+    border-radius: 10px;
+}
+/* Below sets the style of the play links*/
+.game_link{     
+    background-color: rgb(95, 158, 160);
+    padding: 2px;
+    border-radius: 10px;
+    text-align: center;
+    margin-left: 35%;
+    margin-right: 35%;
+}
+a{
+    text-decoration: none;
+    font-size: larger;
+    color: white;
+}
+a:hover{
+    color: tomato;
+}
+/* Styles Font Awesome House */
+i{
+    font-size: xx-large;
+}
